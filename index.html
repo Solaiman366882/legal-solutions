@@ -24,7 +24,7 @@
                     },
                     backgroundImage:{
                         'card-hover':'linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);',
-                        'banner-bg':'linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%) ,url("./images/banner.png")',
+                        'banner-bg':'linear-gradient(90deg, #111 0%, rgba(17, 17, 17, 0.00) 100%) ,url("./images/banner.png")',
                     }
                 }
             }
@@ -40,8 +40,8 @@
     </style>
 </head>
 
-<body>
-    <header>
+<body class="font-poppins">
+    <header class="w-full bg-white">
         <div class="max-w-screen-xl mx-auto">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -73,8 +73,27 @@
                 </div>
               </div>
         </div>
+        <div class="mx-auto max-w-screen-xl mt-12">
+          <div class="hero min-h-[calc(100vh-120px)] rounded-lg overflow-hidden">
+            <div class="hero-overlay bg-opacity-60 bg-banner-bg bg-no-repeat bg-cover bg-center"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-xs lg:max-w-3xl">
+                <h1 class="mb-5 text-4xl lg:text-7xl text-white font-extrabold font-garamond lg:leading-normal">We Provide Effective Legal Solutions</h1>
+                <p class="mb-6 text-white lg:max-w-2xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="flex items-center gap-6 justify-center">
+                  <input type="text" placeholder="Search your services" class="input w-full max-w-lg" />
+                   <button class="btn bg-bg-primary text-xl font-semibold text-white">Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </header>
-    <main></main>
+    <main class="bg-white">
+      <div class="mx-auto max-w-screen-xl">
+
+      </div>
+    </main>
     <footer></footer>
 </body>
 
